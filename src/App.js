@@ -12,6 +12,3 @@ function App() {
 }
 
 export default App;
-
-// Tech Team Daily Standup
-// Daily Team Power Meeting
