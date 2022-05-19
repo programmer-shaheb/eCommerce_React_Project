@@ -17,7 +17,7 @@ import {
   theme,
   badgetext,
 } from "./styles/TopNavStyles";
-import { visibility } from "../../Element.style";
+import { visibility } from "../../Global.style";
 
 const TopNav = () => {
   return (
