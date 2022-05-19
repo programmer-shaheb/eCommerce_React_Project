@@ -1,48 +1,44 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme } from "@mui/material/styles";
 
-
-// search field style
 export const inputStyle = {
-    outline: 'none',
-    border: '0px',
-    borderLeft: '2px solid var(--color-gray)',
-    padding: '0 8px',
-    marginLeft: '4px',
-    fontSize: '16px'
-}
+  outline: "none",
+  border: "0px",
+  padding: "0 8px",
+  marginLeft: "4px",
+  fontSize: "16px",
+  width: "100%",
+};
 
-// search container
 export const searchContainer = {
-    border: '2px solid var(--color-search-border)',
-    padding: '5px 20px',
-    borderRadius: '4px'
-}
+  border: "2px solid var(--color-search-border)",
+  padding: "5px 20px",
+  borderRadius: "4px",
+  maxWidth: "700px",
+  width: "100%",
+  margin: "0 100px",
+};
 
 export const iconStyle = {
-    fontSize: '30px',
-    color: 'var(--color-gray)',
-    marginLeft: '10px'
-}
+  fontSize: "30px",
+  color: "var(--color-gray)",
+  margin: "0 10px",
+};
 
 export const searchIcon = {
-    color: 'var(--color-gray)',
-    fontSize: '26px'
-}
-
-// badges text
+  color: "var(--color-gray)",
+  fontSize: "26px",
+};
 
 export const badgetext = {
-    color: 'var(--color-gray)',
-    marginLeft: '5px',
-    
-}
+  color: "var(--color-gray)",
+  marginLeft: "5px",
+};
 
-// badge style using custom theme
 export const theme = createTheme({
-    palette: {
-        neutral: {
-            main: 'var(--color-primary)',
-            contrastText: 'var(--color-white)',
-        },
+  palette: {
+    neutral: {
+      main: "var(--color-primary)",
+      contrastText: "var(--color-white)",
     },
+  },
 });

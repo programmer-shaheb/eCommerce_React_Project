@@ -1,0 +1,54 @@
+.feature {
+    width: 90%;
+    margin: 25px auto;
+}
+
+.container {
+    max-width: 1610px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;;   
+}
+
+.col {
+    flex: 0 0 auto;
+    width: 33.33%;
+    margin: 0 15px;
+}
+
+.featureIMG {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.featureIMG img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.featureIMG .featureTXT {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+    padding: 0 50px;
+}
+
+.featureIMG .featureTXT h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    min-height: 100px;
+}
+
+.arrow {
+    font-size: 20px;
+    margin-left: 3px;
+    transition: 0.3s;
+}
+
+.btn:hover .arrow {
+    margin-left: 10px;
+}
